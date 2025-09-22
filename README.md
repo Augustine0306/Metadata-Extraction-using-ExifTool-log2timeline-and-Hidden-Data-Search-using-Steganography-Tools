@@ -57,11 +57,10 @@ exiftool -r /path/to/folder
 - ```-time:all: Show only timestamps```
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
-<img width="720" height="495" alt="Screenshot 2025-09-20 185819" src="https://github.com/user-attachments/assets/c9c5ec0f-f029-46a8-9280-0461b95ead1b" />
+<img width="741" height="737" alt="Screenshot 2025-09-22 141601" src="https://github.com/user-attachments/assets/bce63946-9fa8-4d3f-87ee-39fc2d107390" />
 
-<img width="670" height="829" alt="Screenshot 2025-09-20 185924" src="https://github.com/user-attachments/assets/673a74f1-c3b6-42b7-9e7f-5dd264bf8eb7" />
+<img width="743" height="723" alt="Screenshot 2025-09-22 141634" src="https://github.com/user-attachments/assets/48650e5e-62bb-4ae2-9a84-3bd23023fad9" />
 
-<img width="668" height="611" alt="Screenshot 2025-09-20 190340" src="https://github.com/user-attachments/assets/079a8d28-0aec-498e-80d5-5f36e654703d" />
 
 
 ### install log2timeline
@@ -76,6 +75,8 @@ sudo apt install steghide -y
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
+<img width="740" height="451" alt="Screenshot 2025-09-22 142238" src="https://github.com/user-attachments/assets/2983c17f-e4cb-473c-a14d-57595a88d8e4" />
+<img width="746" height="220" alt="Screenshot 2025-09-22 142051" src="https://github.com/user-attachments/assets/ba778645-d374-469d-a5d5-2b27754e50e5" />
 
 
 - **Extract hidden data:**
@@ -83,10 +84,7 @@ steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/s
 steghide extract -sf hidden.jpg
 
 ```
-<img width="674" height="626" alt="Screenshot 2025-09-20 192648" src="https://github.com/user-attachments/assets/a7ecf2f7-e4e1-4338-9d96-a68da4c031d2" />
-
-<img width="784" height="111" alt="Screenshot 2025-09-20 192740" src="https://github.com/user-attachments/assets/f7f39a00-1b8e-4e56-a10f-83212bdce1d1" />
-<img width="608" height="85" alt="Screenshot 2025-09-20 192756" src="https://github.com/user-attachments/assets/0f644f7c-ac86-477d-922f-9ed998f8043f" />
+<img width="742" height="189" alt="Screenshot 2025-09-22 142324" src="https://github.com/user-attachments/assets/d8fb5939-8468-4eef-af5e-fb0746d9a332" />
 
 
 ### Using binwalk – for file analysis
